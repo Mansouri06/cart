@@ -15,7 +15,7 @@ export default function Card(props) {
       </div>
       <div className="text-start  ">
         <div className="">
-          <h1 className="text-start font-bold text-start"> {props.title} </h1>
+          <h1 className="TileCard text-start font-bold text-start"> {props.title} </h1>
           <h1 className="PrixCard text-right text-xl font-bold  py-1  ">
             £{props.prix}
           </h1>
@@ -23,13 +23,13 @@ export default function Card(props) {
         <div className=""></div>
       </div>
       <div className="  ">
-        <p className=" text-xs">{props.details}</p>
+        <p className="TxtDetails text-xs">{props.details}</p>
       </div>
       <div className="flex mt-5  space-x-2 bottom-3  ">
         <button className="flex justify-center border-2 border-gray-200 w-1/6 p-2 ">
           <img className="w-3" src={download} alt="" />
         </button>
-        <button className="border-2 border-gray-200 w-64 bg-indigo-700 text-white text-xs p-2">
+        <button className="BtnAddCard border-2 border-gray-200 w-64  text-white text-xs p-2">
           Add to cart
         </button>
       </div>

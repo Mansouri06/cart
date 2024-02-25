@@ -1,3 +1,26 @@
+
+.BtnAddCard{
+    background:#8517F2;
+}
+@font-face {
+    font-family: American ;
+    src: url(../../../public/American.ttf);
+}
+.TileCard{
+
+    color:"#0C0C0C";
+    
+    font-family: AmericanX ;
+    font-size: smaller;
+    
+}
 .PrixCard{
-    color:#f94644;
+    color:#F44348;
+    font-family: AmericanX ;
+
+}
+.TxtDetails{
+    color:#03132b;
+    font-family: 'Times New Roman', Times, serif; 
+
 }
